@@ -1,6 +1,6 @@
 # bot-util
 
-**bot-util** is a package that makes it easier to post and automate posting to Facebook pages.
+**bot-util** is a NodeJS package that makes it easier to post and automate posting to Facebook pages.
 
   - Add Facebook pages by ID or link
   - Add an app token with **manage_pages** and **publish_pages** permissions.
