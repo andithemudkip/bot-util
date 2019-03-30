@@ -121,8 +121,7 @@ bot_util.facebook.pages[id].Comment({
 All getters accept an `options` object.
 Currently the only parameter the `options` object supports is `fields` which specifies which fields should be retrieved from the Facebook API.
 
-The `fields` parameter can either be a string (with the fields separated by ","), or an array of strings
-example:
+The `fields` parameter can either be a string (with the fields separated by ","), or an array of strings. For example:
 ```js
 bot_util.facebook.pages[id].get.posts.all({fields: ['id', 'message', 'type']})
 .then(res => {
@@ -252,4 +251,4 @@ bot_util.facebook.pages[id].SchedulePost('0 */30 * * * *', () => {
 
 ```
 
-**If these wrappers don't satisfy your needs, you still have access to the whole FB api by using `bot_util.facebook.api` and node-schedule by using ``bot_util.schedule``**
+**If these wrappers don't satisfy your needs, you still have access to the whole FB api by using `bot_util.facebook.api` and node-schedule by using `bot_util.schedule`**
